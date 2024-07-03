@@ -6,7 +6,7 @@ import { useContext, useState , useEffect } from 'react'
 
 const Container =styled(Box)`
     height : 41vh;
-    width :4100vh
+    width :  50vh
 `
 
 function Result() {
@@ -39,9 +39,9 @@ function Result() {
       srcDoc={src} 
       title='output'
       sandbox='allow-scripts'
-      frameBorder="0"
-      width="100%"
-      height="100%"
+      frameBorder="10"
+      width="200%"
+      height="280%"
       
       />
     </Container>
